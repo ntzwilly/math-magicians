@@ -13,6 +13,27 @@ In this project, I create a React component that matches a given calculator desi
 - JSX
 - CSS
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+    Node >= 14.0.0 and npm >= 5.6
+
+### Setup
+
+    1. git clone git@github.com:ntzwilly/math-magicians.git
+    2. cd math-magicians
+
+### Install
+
+    npm install
+
+### Usage
+
+    npm start
+
 ## Authors
 
 👤 **Willy Ntazama**
