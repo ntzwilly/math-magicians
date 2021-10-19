@@ -2,15 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calculator from './components/Calculator';
-
-class App extends React.Component {
-  render() {
-    return (
-      <Calculator />
-    );
-  }
-}
+import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 // If you want to start measuring performance in your app, pass a function
