@@ -18,7 +18,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   background-color: rgb(224, 224, 224);
-  border-color: none;
+  border: none;
 }
 
 .btn-0 {
@@ -28,7 +28,8 @@
 
 .operator {
   background: rgb(245, 145, 62);
-  border-color: grey;
+  border-bottom: none;
+  border-right: none;
 }
 
 .result {
