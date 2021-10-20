@@ -1,12 +1,12 @@
-# Math magicians: components
+# Math magicians: events
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> React component that matches a calculator design:
+> Implement the event handler for the Calculator component:
 
-![calculator](https://user-images.githubusercontent.com/9049260/137929009-76a53045-76d0-4eea-a847-8c763fe80c6b.png)
+![events](https://user-images.githubusercontent.com/9049260/138110832-e4d37ff8-1330-4fc8-a873-27544e66fb6d.png)
 
-In this project, I create a React component that matches a given calculator design.
+In this project, I add the logic needed to make the Calculator component actually work.
 ## Built With
 
 - React
