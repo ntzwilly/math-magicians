@@ -15,52 +15,36 @@ export default function Calculator() {
     return display || '0';
   };
 
+  const elements = [{ value: 'AC', className: 'number' },
+    { value: '+/-', className: 'number' },
+    { value: '%', className: 'number' },
+    { value: '÷', className: 'operator' },
+    { value: '7', className: 'number' },
+    { value: '8', className: 'number' },
+    { value: '9', className: 'number' },
+    { value: 'x', className: 'operator' },
+    { value: '4', className: 'number' },
+    { value: '5', className: 'number' },
+    { value: '6', className: 'number' },
+    { value: '-', className: 'operator' },
+    { value: '1', className: 'number' },
+    { value: '2', className: 'number' },
+    { value: '3', className: 'number' },
+    { value: '+', className: 'operator' },
+    { value: '0', className: 'number btn-0' },
+    { value: '.', className: 'number' },
+    { value: '=', className: 'operator' },
+  ];
+
   return (
     <div className="container">
       <div className="result">
         <span>{displayResult()}</span>
       </div>
       <div className="elements">
-        <button type="button" className="number" onClick={onClickHandler} value="AC">AC</button>
-        <button type="button" className="number" onClick={onClickHandler} value="+/-">+/-</button>
-        <button type="button" className="number" onClick={onClickHandler} value="%">%</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="÷">÷</button>
-        <button type="button" className="number" onClick={onClickHandler} value="7">7</button>
-        <button type="button" className="number" onClick={onClickHandler} value="8">8</button>
-        <button type="button" className="number" onClick={onClickHandler} value="9">9</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="x">x</button>
-        <button type="button" className="number" onClick={onClickHandler} value="4">4</button>
-        <button type="button" className="number" onClick={onClickHandler} value="5">5</button>
-        <button type="button" className="number" onClick={onClickHandler} value="6">6</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="-">-</button>
-        <button type="button" className="number" onClick={onClickHandler} value="1">1</button>
-        <button type="button" className="number" onClick={onClickHandler} value="2">2</button>
-        <button type="button" className="number" onClick={onClickHandler} value="3">3</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="+">+</button>
-        <button type="button" className="number btn-0" onClick={onClickHandler} value="0">0</button>
-        <button type="button" className="number" onClick={onClickHandler} value=".">.</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="=">=</button>
-      </div>
-      <div className="elements">
-        <button type="button" className="number" onClick={onClickHandler} value="AC">AC</button>
-        <button type="button" className="number" onClick={onClickHandler} value="+/-">+/-</button>
-        <button type="button" className="number" onClick={onClickHandler} value="%">%</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="÷">÷</button>
-        <button type="button" className="number" onClick={onClickHandler} value="7">7</button>
-        <button type="button" className="number" onClick={onClickHandler} value="8">8</button>
-        <button type="button" className="number" onClick={onClickHandler} value="9">9</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="x">x</button>
-        <button type="button" className="number" onClick={onClickHandler} value="4">4</button>
-        <button type="button" className="number" onClick={onClickHandler} value="5">5</button>
-        <button type="button" className="number" onClick={onClickHandler} value="6">6</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="-">-</button>
-        <button type="button" className="number" onClick={onClickHandler} value="1">1</button>
-        <button type="button" className="number" onClick={onClickHandler} value="2">2</button>
-        <button type="button" className="number" onClick={onClickHandler} value="3">3</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="+">+</button>
-        <button type="button" className="number btn-0" onClick={onClickHandler} value="0">0</button>
-        <button type="button" className="number" onClick={onClickHandler} value=".">.</button>
-        <button type="button" className="operator" onClick={onClickHandler} value="=">=</button>
+        { elements.map((element) => (
+          <button key={element} type="button" className={element.className} value={element.value} onClick={onClickHandler}>{element.value}</button>
+        ))}
       </div>
     </div>
   );
