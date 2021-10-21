@@ -1,12 +1,13 @@
-# Math magicians: events
+# Math magicians: refactor with hooks
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Implement the event handler for the Calculator component:
+> Using React hooks:
 
 ![events](https://user-images.githubusercontent.com/9049260/138110832-e4d37ff8-1330-4fc8-a873-27544e66fb6d.png)
 
-In this project, I add the logic needed to make the Calculator component actually work.
+In this project I refactor the Calculator component. Instead of using a class based component, I use a hook.
+
 ## Built With
 
 - React
