@@ -1,12 +1,12 @@
-# Math magicians: refactor with hooks
+# Math magicians: full website
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Using React hooks:
+> Using React Router:
 
-![events](https://user-images.githubusercontent.com/9049260/138110832-e4d37ff8-1330-4fc8-a873-27544e66fb6d.png)
+![screenshot](https://user-images.githubusercontent.com/9049260/138949579-3febaaf2-9cfa-4abf-8f74-b2d2049bdb93.png)
 
-In this project I refactor the Calculator component. Instead of using a class based component, I use a hook.
+In this project, I create a full website for the Math magicians app, consisting of 3 pages.
 
 ## Built With
 
@@ -14,6 +14,9 @@ In this project I refactor the Calculator component. Instead of using a class ba
 - JSX
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://ntzwilly.github.io/math-magicians/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
