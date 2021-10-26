@@ -37,14 +37,17 @@ export default function Calculator() {
   ];
 
   return (
-    <div className="container">
-      <div className="result">
-        <span>{displayResult()}</span>
-      </div>
-      <div className="elements">
-        { elements.map((element) => (
-          <button key={element} type="button" className={element.className} value={element.value} onClick={onClickHandler}>{element.value}</button>
-        ))}
+    <div className="calculator">
+      <h2>Let&apos;s do some math!</h2>
+      <div className="container">
+        <div className="result">
+          <span>{displayResult()}</span>
+        </div>
+        <div className="elements">
+          { elements.map((element) => (
+            <button key={element} type="button" className={element.className} value={element.value} onClick={onClickHandler}>{element.value}</button>
+          ))}
+        </div>
       </div>
     </div>
   );
