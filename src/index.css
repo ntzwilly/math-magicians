@@ -65,7 +65,6 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: center;
   background-color: rgb(0, 80, 126);
   padding: 10px;
   box-shadow: 0 3px 5px rgb(245, 145, 62);
