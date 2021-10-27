@@ -45,7 +45,7 @@ export default function Calculator() {
         </div>
         <div className="elements">
           { elements.map((element) => (
-            <button key={element} type="button" className={element.className} value={element.value} onClick={onClickHandler}>{element.value}</button>
+            <button key={element.value} type="button" className={element.className} value={element.value} onClick={onClickHandler}>{element.value}</button>
           ))}
         </div>
       </div>
