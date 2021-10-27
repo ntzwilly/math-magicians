@@ -194,3 +194,13 @@ exports[`Snapshot testing components Home snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`Snapshot testing components Quote snapshot 1`] = `
+<div>
+  <p
+    className="quote"
+  >
+    "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." --William Paul Thurston
+  </p>
+</div>
+`;
