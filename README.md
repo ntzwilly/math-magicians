@@ -16,9 +16,9 @@ In this project, I create a full website for the Math magicians app, consisting 
 
 ## Live Demo
 
-[Github Link](https://ntzwilly.github.io/math-magicians/)
-[Netlify Link](https://pedantic-meitner-ae1e54.netlify.app/home)
-[Heroku Link](https://math-magicians-01.herokuapp.com/)
+- [Github Link](https://ntzwilly.github.io/math-magicians/)
+- [Netlify Link](https://pedantic-meitner-ae1e54.netlify.app/home)
+- [Heroku Link](https://math-magicians-01.herokuapp.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
