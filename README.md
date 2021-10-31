@@ -16,7 +16,8 @@ In this project, I create a full website for the Math magicians app, consisting 
 
 ## Live Demo
 
-[Live Demo Link](https://ntzwilly.github.io/math-magicians/)
+[Github Link](https://ntzwilly.github.io/math-magicians/)
+[Netlify Link](https://pedantic-meitner-ae1e54.netlify.app/home)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
