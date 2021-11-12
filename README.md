@@ -1,12 +1,11 @@
-# Math magicians: full website
+# Math magicians
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Using React Router:
+> Home Page:
 
 ![screenshot](https://user-images.githubusercontent.com/9049260/138949579-3febaaf2-9cfa-4abf-8f74-b2d2049bdb93.png)
 
-In this project, I create a full website for the Math magicians app, consisting of 3 pages.
 
 ## Built With
 
